@@ -13,6 +13,7 @@
 		FACBDCFB1DD16F7D00A0EC6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACBDCF91DD16F7D00A0EC6B /* Main.storyboard */; };
 		FACBDCFD1DD16F7D00A0EC6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACBDCFC1DD16F7D00A0EC6B /* Assets.xcassets */; };
 		FACBDD001DD16F7D00A0EC6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACBDCFE1DD16F7D00A0EC6B /* LaunchScreen.storyboard */; };
+		FACBDD091DD16FF500A0EC6B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FACBDD081DD16FF500A0EC6B /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FACBDCFC1DD16F7D00A0EC6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FACBDCFF1DD16F7D00A0EC6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FACBDD011DD16F7D00A0EC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACBDD071DD16FF500A0EC6B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FACBDD081DD16FF500A0EC6B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,8 @@
 		FACBDCE41DD16F7D00A0EC6B = {
 			isa = PBXGroup;
 			children = (
+				FACBDD071DD16FF500A0EC6B /* Person.h */,
+				FACBDD081DD16FF500A0EC6B /* Person.m */,
 				FACBDCEF1DD16F7D00A0EC6B /* Directory */,
 				FACBDCEE1DD16F7D00A0EC6B /* Products */,
 			);
@@ -153,6 +158,7 @@
 			files = (
 				FACBDCF81DD16F7D00A0EC6B /* ViewController.m in Sources */,
 				FACBDCF51DD16F7D00A0EC6B /* AppDelegate.m in Sources */,
+				FACBDD091DD16FF500A0EC6B /* Person.m in Sources */,
 				FACBDCF21DD16F7D00A0EC6B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
